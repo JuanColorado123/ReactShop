@@ -13,7 +13,7 @@ function App() {
         <div className="app">
           <Navbar />
           <Routes>
-            <Route path="/ReactShop/" element={<ProductList />} />
+            <Route path="/ReactShop" element={<ProductList />} />
             <Route path="/product/:id" element={<ProductDetail />} />
             <Route path="/cart" element={<Cart />} />
           </Routes>
